@@ -15,6 +15,9 @@ uv run train_model.py
 ```shell
 # Запуск приложения
 uv run uvicorn main:app --reload
+
+# Запуск приложения из docker
+docker compose -f docker-compose.yml up
 ```
 
 
